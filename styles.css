@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+header, footer {
+    background-color: purple;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-items .item {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.portfolio-items .item img {
+    width: 100%;
+}
+
+/* Form Styles */
+
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+.center{
+    text-align: center;
+}
+.bg{
+    background: #000;
+}
+.text-light{
+    color: white;
+}
+.with{
+    font-size: 60px;
+}
+
+
+@media(max-width:720px) {
+    /* html{
+        background-color: red;
+    } */
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .center-1{
+        text-align: center;
+    }
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container ">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div><div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lT11mpAhJcBAJcwOXyjaAvaj82Tlp9wRnA&usqp=CAU" alt="Portfolio Item 1">
+                    <h3>Project Title</h3>
+                    <p>Description of the project.</p>
+                </div>
+                <!-- Add more portfolio items -->
+            </div>
+        </div>
